@@ -161,7 +161,7 @@ const blogSection = {
     blogs: [
         {
             url: "https://blog.spacebaar.com/2013/11/star-paradise-brighter-would-be-light.html",
-            image: "https://themes.googleusercontent.com/image?id=wltVPUckfSK9W7r7g9igwymWBEo331nLn9RtDt0jiRzLWLfYn17ncXNLjzi6gMZd0cE2mcKHh5eh&options=w1440",
+            image: "space.jpg",
             title: "STAR PARADISE",
             description: "Brighter would be the Light, For the fire Burns in End, Has shown all its Might, Even the roughest bonds mend"
         },
