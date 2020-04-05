@@ -23,14 +23,14 @@ export default class Main extends Component {
         <Skills />
         <StackProgress />
         <Projects />
-        <StartupProject />
-        <Achievement />
+        {/* <StartupProject /> */}
+        {/* <Achievement /> */}
         <Blogs />
-        <Talks />
+        {/* <Talks /> */}
         <Twitter />
-        <Podcast />
+        {/* <Podcast /> */}
         <Contact />
-        <Footer />
+        {/* <Footer /> */}
         <Top />
       </div>
     );

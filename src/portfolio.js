@@ -6,7 +6,7 @@ const greeting = {
     /* Your Summary And Greeting Section */
     title: "Hi all I'm Ashitosh",
     subTitle:
-        "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Angular / Nodejs / React Native and some other cool libraries and frameworks",
+        "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Angular / Nodejs / Laravel and some other cool libraries and frameworks",
     resumeLink: "https://cv.spacebaar.com"
 };
 
@@ -53,16 +53,12 @@ const skillsSection = {
             fontAwesomeClassname: "fab fa-js"
         },
         {
-            skillName: "reactjs",
-            fontAwesomeClassname: "fab fa-react"
+            skillName: "angular",
+            fontAwesomeClassname: "fab fa-angular"
         },
         {
             skillName: "nodejs",
             fontAwesomeClassname: "fab fa-node"
-        },
-        {
-            skillName: "swift",
-            fontAwesomeClassname: "fab fa-swift"
         },
         {
             skillName: "npm",
@@ -98,15 +94,15 @@ const techStack = {
     experience: [
         {
             Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-            progressPercentage: "90%"  //Insert relative proficiency in percentage
+            progressPercentage: "60%"  //Insert relative proficiency in percentage
         },
         {
             Stack: "Backend",
-            progressPercentage: "70%"
+            progressPercentage: "90%"
         },
         {
             Stack: "Programming",
-            progressPercentage: "60%"
+            progressPercentage: "80%"
         }
     ]
 };
@@ -127,13 +123,9 @@ const bigProjects = {
     subtitle: "SOME STARTUPS AND COMPANIES THAT I HELP TO CREATE THEIR TECH",
     projects: [
         {
-            image: "https://drive.google.com/uc?id=1exWn9T6j8TsfDDHJnS3VR66eP6RiGAfY",
-            link: "http://saayahealth.com/"
+            // image: "https://drive.google.com/uc?id=1exWn9T6j8TsfDDHJnS3VR66eP6RiGAfY",
+            // link: "https://nsslogistics.in"
         },
-        {
-            image: "https://drive.google.com/uc?id=1MXoXcQRK-pH8J82wyjCW4SJk5AxJe7tf",
-            link: "http://nextu.se/"
-        }
     ]
 };
 
@@ -146,8 +138,8 @@ const achievementSection = {
 
     achivementsCards: [
         {
-            title: "Google Code-In Finalist",
-            description: "First Pakistani to be selected as Google Google-in Finalist from 4000 students from 77 diffrent countries",
+            title: "AWS Certified Developer - Associate",
+            description: "Successfully completed and certified in the AWS Developer Associate certification",
             image:
                 "https://1.bp.blogspot.com/-Ig-v1tDXZt4/XDODmZvWp1I/AAAAAAAAB0A/KtbFdBPFVQw2O15FekkIR0Yg8MUp--rngCLcBGAs/s1600/GCI%2B-%2BVertical%2B-%2BGray%2BText%2B-%2BWhite%2BBG.png",
             footerLink: [
@@ -156,22 +148,6 @@ const achievementSection = {
                 { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
             ]
         },
-        {
-            title: "Google Assistant Action",
-            description: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Google_Assistant_logo.svg/1200px-Google_Assistant_logo.svg.png",
-            footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
-        },
-
-        {
-            title: "PWA Web App Developer",
-            description: "Completed Certifcation from SMIT for PWA Web App Development",
-            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu93Bd6LDbxPEOXr-hfLqLYzmHny8c0MJoI3exQP-lwpFLRT7g&s",
-            footerLink: [
-                { name: "Certification", url: "" },
-                { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
-            ]
-        }
     ]
 };
 
@@ -184,17 +160,17 @@ const blogSection = {
 
     blogs: [
         {
-            url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-            image: "https://miro.medium.com/max/400/1*pYHONrA_3QM4dgtBSKrYWQ.jpeg",
-            title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-            description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min."
+            url: "https://blog.spacebaar.com/2013/11/star-paradise-brighter-would-be-light.html",
+            image: "https://themes.googleusercontent.com/image?id=wltVPUckfSK9W7r7g9igwymWBEo331nLn9RtDt0jiRzLWLfYn17ncXNLjzi6gMZd0cE2mcKHh5eh&options=w1440",
+            title: "STAR PARADISE",
+            description: "Brighter would be the Light, For the fire Burns in End, Has shown all its Might, Even the roughest bonds mend"
         },
         {
-            url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-            image: "https://miro.medium.com/max/1280/1*o08b2PW-1PVs94riZuhNMA.png",
-            title: "Why REACT Is The Best?",
-            description: "React is a JavaScript library for building the user interface. It is maintained by Facebook and a community of individual developers and companies."
-        }
+            url: "https://wordifact.com/",
+            image: "https://i2.wp.com/wordifact.com/wp-content/uploads/2019/10/Share-your-thoughts-1.jpg?w=960&ssl=1",
+            title: "WORDIFACT",
+            description: "Wordifact is a platform dedicated to providing the highest quality, unbiased content, resources, and news centered on the Technology, Health and Fitness Tips, Motivational Stories and related discipline. We will help you understand the technologies shaping our lives and we will keep you up-to-date on the latest news and trends."
+        },
     ]
 };
 
