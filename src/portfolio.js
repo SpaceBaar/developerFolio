@@ -1,12 +1,15 @@
-﻿/* Change this file to get your personal Portfolio */
+﻿
+/* Change this file to get your personal Portfolio */
 
 // Your Summary And Greeting Section
+
+import emoji from "react-easy-emoji";
 
 const greeting = {
     /* Your Summary And Greeting Section */
     title: "Hi all I'm Ashitosh",
     subTitle:
-        "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Angular / Nodejs / Laravel and some other cool libraries and frameworks",
+        emoji("A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Angular / Nodejs / Laravel and some other cool libraries and frameworks"),
     resumeLink: "https://cv.spacebaar.com"
 };
 
@@ -27,9 +30,9 @@ const skillsSection = {
     title: "What i do",
     subTitle: "CRAZY FULL STACK DEVELOPER WHO WANT TO EXPLORE EVERY TECH STACK",
     skills: [
-        "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
-        "⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks",
-        "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+        emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
+        emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+        emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
     ],
 
     /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -133,7 +136,7 @@ const bigProjects = {
 
 const achievementSection = {
 
-    title: "Achievements And Certifications 🏆 ",
+    title: emoji("Achievements And Certifications 🏆 "),
     subtitle: "Achievements, Certifications Award Letters and Some Cool Stuff that i have done !",
 
     achivementsCards: [
@@ -178,7 +181,7 @@ const blogSection = {
 
 const talkSection = {
     title: "TALKS",
-    subtitle: "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅",
+    subtitle: emoji("I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"),
 
     talks: [
         {
@@ -195,7 +198,7 @@ const talkSection = {
 // Podcast Section
 
 const podcastSection = {
-    title: "Podcast 🎙️",
+    title: emoji("Podcast 🎙️"),
     subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
     // Please Provide with Your Podcast embeded Link
@@ -203,7 +206,7 @@ const podcastSection = {
 };
 
 const contactInfo = {
-    title: "Contact Me ☎️",
+    title: emoji("Contact Me ☎️"),
     subtitle: "Discuss a project or just want to say hi my inbox is open for all",
     number: "+91-8108731556",
     email_address: "ashitosh.yadav@spacebaar.com"
