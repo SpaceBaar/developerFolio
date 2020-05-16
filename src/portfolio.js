@@ -7,6 +7,7 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
     /* Your Summary And Greeting Section */
+    username: "SpaceBaar",
     title: "Hi all I'm Ashitosh",
     subTitle:
         emoji("A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Angular / Nodejs / Laravel and some other cool libraries and frameworks"),
@@ -21,7 +22,10 @@ const socialMediaLinks = {
     linkedin: "https://www.linkedin.com/in/yadavashitosh24/",
     gmail: "ashitosh.yadav@spacebaar.com",
     gitlab: "https://gitlab.com/spacebaar",
-    facebook: "https://www.facebook.com/yadavashitosh24"
+    facebook: "https://www.facebook.com/yadavashitosh24",
+    instagram: "https://www.instagram.com/yadavashitosh24",
+    twitter: "https://www.twitter.com/ashitoshyadav"
+    // Instagram and Twitter are also supported in the links!
 };
 
 // Your Skills Section
@@ -115,7 +119,8 @@ To know how to get github key look at readme.md */
 
 const openSource = {
     githubConvertedToken: "MjA3YTljNGRhYWM3ZmE1MDNiNjc1MjZkYjVhNWNlYjcxNzVkZjM3Yw==",
-    githubUserName: "spacebaar"
+    githubUserName: "spacebaar",
+    showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
 };
 
 
@@ -142,7 +147,7 @@ const achievementSection = {
     achivementsCards: [
         {
             title: "AWS Certified Developer - Associate",
-            description: "Successfully completed and certified in the AWS Developer Associate certification",
+            subtitle: "Successfully completed and certified in the AWS Developer Associate certification",
             image:
                 "https://1.bp.blogspot.com/-Ig-v1tDXZt4/XDODmZvWp1I/AAAAAAAAB0A/KtbFdBPFVQw2O15FekkIR0Yg8MUp--rngCLcBGAs/s1600/GCI%2B-%2BVertical%2B-%2BGray%2BText%2B-%2BWhite%2BBG.png",
             footerLink: [

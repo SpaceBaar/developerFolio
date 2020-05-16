@@ -4,7 +4,7 @@ import { gql } from "apollo-boost";
 import "./Project.css";
 import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
 import Button from "../../components/button/Button";
-import { openSource } from "../../portfolio";
+import { openSource, socialMediaLinks } from "../../portfolio";
 import { Fade } from "react-reveal";
 
 export default function Projects() {
@@ -29,35 +29,37 @@ export default function Projects() {
         client
             .query({
                 query: gql`
-          {
-            repositoryOwner(login: "${openSource.githubUserName}") {
-              ... on User {
-                pinnedRepositories(first: 6) {
-                  edges {
-                    node {
-                      nameWithOwner
-                      description
-                      forkCount
-                      stargazers {
-                        totalCount
-                      }
-                      url
-                      id
-                      diskUsage
-                      primaryLanguage {
-                        name
-                        color
-                      }
-                    }
+        {
+        user(login: "${openSource.githubUserName}") {
+          pinnedItems(first: 6, types: [REPOSITORY]) {
+            totalCount
+            edges {
+              node {
+                ... on Repository {
+                  name
+                  description
+                  forkCount
+                  stargazers {
+                    totalCount
+                  }
+                  url
+                  id
+                  diskUsage
+                  primaryLanguage {
+                    name
+                    color
                   }
                 }
               }
             }
           }
+        }
+      }
         `
             })
             .then(result => {
-                setrepoFunction(result.data.repositoryOwner.pinnedRepositories.edges);
+                setrepoFunction(result.data.user.pinnedItems.edges);
+                console.log(result);
             });
     }
 
@@ -74,7 +76,7 @@ export default function Projects() {
                         return <GithubRepoCard repo={v} key={v.node.id} />;
                     })}
                 </div>
-                <Button text={"More Projects"} className="project-button" href="https://github.com/SpaceBaar" newTab={true} />
+                <Button text={"More Projects"} className="project-button" href={socialMediaLinks.github} newTab={true} />
             </div>
         </Fade>
     );
