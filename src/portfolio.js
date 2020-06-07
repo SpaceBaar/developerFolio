@@ -126,14 +126,18 @@ const workExperiences = {
             company: "Moofwd Inc.",
             companylogo: require("./assets/images/logo.png"),
             date: "March 2018 – Present",
-            desc: "Worked on the company's primary product (portals for education domain). Created a CMS portal for mobile applications. Currently working on an e-commerce stimulation for a big client"
+            desc: "Worked on the company's primary product (portals for education domain). Created a CMS portal for mobile applications. Currently working on an e-commerce stimulation for a big client",
         },
         {
             role: "Software Developer",
             company: "Sheela Infotech Solutions",
             companylogo: require("./assets/images/logo2.png"),
             date: "March 2017 – March 2018",
-            desc: "Developed Payroll, Inventory, Last Mile Delivery solutions to fulfill company's inhouse requirements. Introduced new coding mechanisms and patterns and helped in maintaining proper coding standards."
+            desc: "Developed Payroll, Inventory, Last Mile Delivery solutions to fulfill company's inhouse requirements. Introduced new coding mechanisms and patterns and helped in maintaining proper coding standards.",
+            // descBullets: [
+            //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+            // ]
         },
     ]
 };
@@ -143,7 +147,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
     githubConvertedToken: "MjA3YTljNGRhYWM3ZmE1MDNiNjc1MjZkYjVhNWNlYjcxNzVkZjM3Yw==",
-    githubUserName: "spacebaar",
+    githubUserName: "spacebaar", // Change to your github username to view your profile in Contact Section.
     showGithubProfile: "true" // Set true or false to show Contact profile using Github, defaults to false 
 };
 
