@@ -174,14 +174,11 @@ const achievementSection = {
 
     achivementsCards: [
         {
-            title: "AWS Certified Developer - Associate",
-            subtitle: "Successfully completed and certified in the AWS Developer Associate certification",
-            image:
-                "https://1.bp.blogspot.com/-Ig-v1tDXZt4/XDODmZvWp1I/AAAAAAAAB0A/KtbFdBPFVQw2O15FekkIR0Yg8MUp--rngCLcBGAs/s1600/GCI%2B-%2BVertical%2B-%2BGray%2BText%2B-%2BWhite%2BBG.png",
+            title: "Google Assistant Action",
+            subtitle: "Developed a Google Assistant Action SpaceBaar Javascript Trivia that is available on 2 Billion devices world wide.",
+            image: require("./assets/images/googleAssistantLogo.webp"),
             footerLink: [
-                { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-                { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-                { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
+                { name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }
             ]
         },
     ]
