@@ -178,7 +178,7 @@ const achievementSection = {
             subtitle: "Developed a Google Assistant Action SpaceBaar Javascript Trivia that is available on 2 Billion devices world wide.",
             image: require("./assets/images/googleAssistantLogo.webp"),
             footerLink: [
-                { name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }
+                { name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/0000005d3fd80d51?hl=en" }
             ]
         },
     ]
