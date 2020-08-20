@@ -208,6 +208,34 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "lcsvcn",
+      "name": "Lucas V C Nicolau",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6011385?v=4",
+      "profile": "https://github.com/lcsvcn",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "bradleycherrin",
+      "name": "Bradley C. Herrin",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5648785?v=4",
+      "profile": "http://bradleycherrin.com",
+      "contributions": [
+        "doc",
+        "ideas"
+      ]
+    },
+    {
+      "login": "zekinah",
+      "name": "Zekinah Lecaros",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/43392346?v=4",
+      "profile": "http://www.zekinahlecaros.com",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

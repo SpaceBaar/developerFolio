@@ -25,7 +25,9 @@ const socialMediaLinks = {
     gitlab: "https://gitlab.com/spacebaar",
     facebook: "https://www.facebook.com/yadavashitosh24",
     instagram: "https://www.instagram.com/yadavashitosh24",
-    twitter: "https://www.twitter.com/ashitoshyadav"
+    twitter: "https://www.twitter.com/ashitoshyadav",
+    // medium: "https://medium.com/@saadpasta",
+    stackoverflow: "https://stackoverflow.com/users/7769583/spacebaar"
     // Instagram and Twitter are also supported in the links!
 };
 
