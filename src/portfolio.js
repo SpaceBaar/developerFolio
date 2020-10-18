@@ -97,6 +97,30 @@ const skillsSection = {
     ]
 };
 
+// Your education background
+
+const educationInfo = {
+    viewEducation: true, // Set it to true to see education section
+    schools: [
+        {
+            schoolName: "IGNOU",
+            logo: require("./assets/images/ignouLogo.png"),
+            subHeader: "Master of Science in Computer Science",
+            duration: "August 2017 - Present",
+            desc: "",
+            descBullets: [ ]
+        },
+        {
+            schoolName: "S.K College Of Science and Commerce (Mumbai University)",
+            logo: require("./assets/images/skLogo.png"),
+            subHeader: "Bachelor of Science in Computer Science",
+            duration: "August 2013 - March 2016",
+            desc: "",
+            descBullets: [ ]
+        }
+    ]
+}
+
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
@@ -148,7 +172,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-    githubConvertedToken: "MjA3YTljNGRhYWM3ZmE1MDNiNjc1MjZkYjVhNWNlYjcxNzVkZjM3Yw==",
+    githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
     githubUserName: "spacebaar", // Change to your github username to view your profile in Contact Section.
     showGithubProfile: "true" // Set true or false to show Contact profile using Github, defaults to false 
 };
@@ -174,7 +198,7 @@ const achievementSection = {
     title: emoji("Achievements And Certifications 🏆 "),
     subtitle: "Achievements, Certifications Award Letters and Some Cool Stuff that i have done !",
 
-    achivementsCards: [
+    achievementsCards: [
         {
             title: "Google Assistant Action",
             subtitle: "Developed a Google Assistant Action SpaceBaar Javascript Trivia that is available on 2 Billion devices world wide.",
@@ -182,7 +206,7 @@ const achievementSection = {
             footerLink: [
                 { name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/0000005d3fd80d51?hl=en" }
             ]
-        },
+        }
     ]
 };
 
@@ -251,4 +275,4 @@ const twitterDetails = {
     userName: "ashitoshyadav"//Replace "twitter" with your twitter username without @
 
 };
-export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo, twitterDetails };
+export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo, twitterDetails };
