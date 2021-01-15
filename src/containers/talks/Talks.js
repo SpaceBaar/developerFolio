@@ -7,6 +7,9 @@ import StyleContext from "../../contexts/StyleContext";
 
 export default function Talks() {
   const { isDark } = useContext(StyleContext);
+  if (!talkSection.display) {
+      return null;
+  }
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="talks">
@@ -21,9 +24,10 @@ export default function Talks() {
           >
             {talkSection.subtitle}
           </p>
-          {talkSection.talks.map((talk) => {
+          {talkSection.talks.map((talk,i) => {
             return (
               <TalkCard
+                key={i}
                 talkDetails={{
                   title: talk.title,
                   subtitle: talk.subtitle,
