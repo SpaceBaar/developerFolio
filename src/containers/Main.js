@@ -52,14 +52,14 @@ export default class Main extends Component {
           <Education />
           <WorkExperience />
           <Projects />
-          {/* <StartupProject /> */}
+          <StartupProject />
           <Achievement />
           <Blogs />
-          {/* <Talks /> */}
+          <Talks />
           <Twitter />
-          {/* <Podcast /> */}
+          <Podcast />
           <Profile />
-          {/* <Footer /> */}
+          <Footer />
           <Top />
         </StyleProvider>
       </div>
