@@ -9,28 +9,27 @@ const illustration = {
 };
 
 const greeting = {
-  username: 'SpaceBaar',
+  username: "SpaceBaar",
   title: "Hi all I'm Ashitosh",
   subTitle: emoji(
-    'A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Angular / Nodejs / Laravel and some other cool libraries and frameworks'
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Angular / Nodejs / Laravel and some other cool libraries and frameworks"
   ),
-  resumeLink:
-    'https://cv.spacebaar.com',
-  displayGreeting: true, // Set false to hide this section, defaults to true
+  resumeLink: "https://cv.spacebaar.com",
+  displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: 'https://github.com/SpaceBaar',
-  linkedin: 'https://www.linkedin.com/in/yadavashitosh24/',
-  gmail: 'ashitosh.yadav@spacebaar.com',
-  gitlab: 'https://gitlab.com/spacebaar',
-  facebook: 'https://www.facebook.com/yadavashitosh24',
+  github: "https://github.com/SpaceBaar",
+  linkedin: "https://www.linkedin.com/in/yadavashitosh24/",
+  gmail: "ashitosh.yadav@spacebaar.com",
+  gitlab: "https://gitlab.com/spacebaar",
+  facebook: "https://www.facebook.com/yadavashitosh24",
   instagram: "https://www.instagram.com/yadavashitosh24",
   twitter: "https://www.twitter.com/ashitoshyadav",
   // medium: 'https://medium.com/@saadpasta',
-  stackoverflow: 'https://stackoverflow.com/users/7769583/spacebaar',
+  stackoverflow: "https://stackoverflow.com/users/7769583/spacebaar",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };
@@ -71,16 +70,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: 'angular',
-      fontAwesomeClassname: 'fab fa-angular',
+      skillName: "angular",
+      fontAwesomeClassname: "fab fa-angular"
     },
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: 'npm',
-      fontAwesomeClassname: 'fab fa-npm',
+      skillName: "npm",
+      fontAwesomeClassname: "fab fa-npm"
     },
     {
       skillName: "sql-database",
@@ -112,22 +111,22 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: 'IGNOU',
-      logo: require('./assets/images/ignouLogo.png'),
-      subHeader: 'Master of Science in Computer Science',
-      duration: 'August 2017 - Present',
-      desc: '',
-      descBullets: [ ],
+      schoolName: "IGNOU",
+      logo: require("./assets/images/ignouLogo.png"),
+      subHeader: "Master of Science in Computer Science",
+      duration: "August 2017 - Present",
+      desc: "",
+      descBullets: []
     },
     {
-      schoolName: 'S.K College Of Science and Commerce (Mumbai University)',
-      logo: require('./assets/images/skLogo.png'),
-      subHeader: 'Bachelor of Science in Computer Science',
-      duration: 'August 2013 - March 2016',
-      desc: '',
-      descBullets: [ ],
-    },
-  ],
+      schoolName: "S.K College Of Science and Commerce (Mumbai University)",
+      logo: require("./assets/images/skLogo.png"),
+      subHeader: "Bachelor of Science in Computer Science",
+      duration: "August 2013 - March 2016",
+      desc: "",
+      descBullets: []
+    }
+  ]
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -136,17 +135,17 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-      progressPercentage: '60%', //Insert relative proficiency in percentage
+      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      progressPercentage: "60%" //Insert relative proficiency in percentage
     },
     {
-      Stack: 'Backend',
-      progressPercentage: '90%',
+      Stack: "Backend",
+      progressPercentage: "90%"
     },
     {
-      Stack: 'Programming',
-      progressPercentage: '80%',
-    },
+      Stack: "Programming",
+      progressPercentage: "80%"
+    }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -157,27 +156,27 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: 'Product Engineer - Web Technology',
-      company: 'Moofwd Inc.',
-      companylogo: require('./assets/images/logo.png'),
-      date: 'March 2018 – Present',
+      role: "Product Engineer - Web Technology",
+      company: "Moofwd Inc.",
+      companylogo: require("./assets/images/logo.png"),
+      date: "March 2018 – Present",
       desc:
-        'Worked on the company\'s primary product (portals for education domain). Created a CMS portal for mobile applications. Currently working on an e-commerce stimulation for a big client',
-      descBullets: [ ],
+        "Worked on the company's primary product (portals for education domain). Created a CMS portal for mobile applications. Currently working on an e-commerce stimulation for a big client",
+      descBullets: []
     },
     {
-      role: 'Software Developer',
-      company: 'Software Developer',
-      companylogo: require('./assets/images/logo2.png'),
-      date: 'March 2017 – March 2018',
+      role: "Software Developer",
+      company: "Software Developer",
+      companylogo: require("./assets/images/logo2.png"),
+      date: "March 2017 – March 2018",
       desc:
-        'Developed Payroll, Inventory, Last Mile Delivery solutions to fulfill company\'s inhouse requirements. Introduced new coding mechanisms and patterns and helped in maintaining proper coding standards.',
+        "Developed Payroll, Inventory, Last Mile Delivery solutions to fulfill company's inhouse requirements. Introduced new coding mechanisms and patterns and helped in maintaining proper coding standards."
       // descBullets: [
       //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       // ]
-    },
-  ],
+    }
+  ]
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -185,9 +184,9 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: 'SpaceBaar', // Change to your github username to view your profile in Contact Section.
-  showGithubProfile: 'true', // Set true or false to show Contact profile using Github, defaults to true
-  display: true, // Set false to hide this section, defaults to true
+  githubUserName: "SpaceBaar", // Change to your github username to view your profile in Contact Section.
+  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -220,7 +219,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: false, // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -233,18 +232,18 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: 'Google Assistant Action',
+      title: "Google Assistant Action",
       subtitle:
-        'Developed a Google Assistant Action SpaceBaar Javascript Trivia that is available on 2 Billion devices world wide.',
-      image: require('./assets/images/googleAssistantLogo.webp'),
+        "Developed a Google Assistant Action SpaceBaar Javascript Trivia that is available on 2 Billion devices world wide.",
+      image: require("./assets/images/googleAssistantLogo.webp"),
       footerLink: [
         {
           name: "View Google Assistant Action",
           url:
-            'https://assistant.google.com/services/a/uid/0000005d3fd80d51?hl=eng',
-        },
-      ],
-    },
+            "https://assistant.google.com/services/a/uid/0000005d3fd80d51?hl=eng"
+        }
+      ]
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -259,17 +258,17 @@ const blogSection = {
   blogs: [
     {
       url:
-        'https://blog.spacebaar.com/2013/11/star-paradise-brighter-would-be-light.html',
-      title: 'STAR PARADISE',
+        "https://blog.spacebaar.com/2013/11/star-paradise-brighter-would-be-light.html",
+      title: "STAR PARADISE",
       description:
-        'Brighter would be the Light, For the fire Burns in End, Has shown all its Might, Even the roughest bonds mend',
+        "Brighter would be the Light, For the fire Burns in End, Has shown all its Might, Even the roughest bonds mend"
     },
     {
-      url: 'https://wordifact.com/',
-      title: 'WORDIFACT',
+      url: "https://wordifact.com/",
+      title: "WORDIFACT",
       description:
-        'Wordifact is a platform dedicated to providing the highest quality, unbiased content, resources, and news centered on the Technology, Health and Fitness Tips, Motivational Stories and related discipline. We will help you understand the technologies shaping our lives and we will keep you up-to-date on the latest news and trends.',
-    },
+        "Wordifact is a platform dedicated to providing the highest quality, unbiased content, resources, and news centered on the Technology, Health and Fitness Tips, Motivational Stories and related discipline. We will help you understand the technologies shaping our lives and we will keep you up-to-date on the latest news and trends."
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -290,7 +289,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: false, // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -303,22 +302,22 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: false, // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    'Discuss a project or just want to say hi? My Inbox is open for all.',
+    "Discuss a project or just want to say hi? My Inbox is open for all.",
   // number: "+91-8108731556",
-  emailAddress: 'ashitosh.yadav@spacebaar.com',
+  emailAddress: "ashitosh.yadav@spacebaar.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: 'ashitoshyadav', //Replace "twitter" with your twitter username without @
-  display: true, // Set true to display this section, defaults to false
+  userName: "ashitoshyadav", //Replace "twitter" with your twitter username without @
+  display: true // Set true to display this section, defaults to false
 };
 
 export {
