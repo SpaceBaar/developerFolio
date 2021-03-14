@@ -183,8 +183,6 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "SpaceBaar", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
@@ -310,7 +308,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   // number: "+91-8108731556",
-  emailAddress: "ashitosh.yadav@spacebaar.com"
+  email_address: "ashitosh.yadav@spacebaar.com"
 };
 
 // Twitter Section
