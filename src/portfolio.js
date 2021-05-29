@@ -114,7 +114,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "IGNOU",
-      logo: require("./assets/images/ignouLogo.png").default,
+      logo: require("./assets/images/ignouLogo.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "August 2017 - Present",
       desc: "",
@@ -122,7 +122,7 @@ const educationInfo = {
     },
     {
       schoolName: "S.K College Of Science and Commerce (Mumbai University)",
-      logo: require("./assets/images/skLogo.png").default,
+      logo: require("./assets/images/skLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "August 2013 - March 2016",
       desc: "",
@@ -160,7 +160,7 @@ const workExperiences = {
     {
       role: "Product Engineer - Web Technology",
       company: "Moofwd Inc.",
-      companylogo: require("./assets/images/logo.png").default,
+      companylogo: require("./assets/images/logo.png"),
       date: "March 2018 – Present",
       desc:
         "Worked on the company's primary product (portals for education domain). Created a CMS portal for mobile applications. Currently working on an e-commerce stimulation for a big client",
@@ -169,7 +169,7 @@ const workExperiences = {
     {
       role: "Software Developer",
       company: "Software Developer",
-      companylogo: require("./assets/images/logo2.png").default,
+      companylogo: require("./assets/images/logo2.png"),
       date: "March 2017 – March 2018",
       desc:
         "Developed Payroll, Inventory, Last Mile Delivery solutions to fulfill company's inhouse requirements. Introduced new coding mechanisms and patterns and helped in maintaining proper coding standards."
@@ -196,7 +196,7 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp").default,
+      image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "Saayahealth",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
@@ -208,7 +208,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp").default,
+      image: require("./assets/images/nextuLogo.webp"),
       projectName: "Nextu",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
@@ -235,7 +235,7 @@ const achievementSection = {
       title: "Google Assistant Action",
       subtitle:
         "Developed a Google Assistant Action SpaceBaar Javascript Trivia that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp").default,
+      image: require("./assets/images/googleAssistantLogo.webp"),
       footerLink: [
         {
           name: "View Google Assistant Action",
